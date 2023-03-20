@@ -7,13 +7,18 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-p {
+p, main {
     margin: 10px auto;
     font-size: medium;
+    align-items: center;
 }
 img {
+ 
+}
+#image {
     width: 750px;
     max-width: 100%;
     height: auto;
     display: block;
-}
+    image-orientation: flip;
+  }
