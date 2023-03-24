@@ -2,23 +2,31 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+    border: 1px solid red;
+    }
 body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
+    background-color: gainsboro;
+    color: purple;
+    }
 p, main {
     margin: 10px auto;
     font-size: medium;
     align-items: center;
 }
-img {
- 
-}
 #image {
-    width: 750px;
-    max-width: 100%;
-    height: auto;
+    width: 500px;
+    height: 500px;
     display: block;
+    object-fit: contain;
     image-orientation: flip;
-  }
+}
+.image-block {
+    text-align: center;
+    margin: auto
+}
+.footer{
+    display: flex;
+    justify-content: baseline;
+}
