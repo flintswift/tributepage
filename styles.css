@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
     }
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -21,6 +20,7 @@ p, main {
     display: block;
     object-fit: contain;
     image-orientation: flip;
+    margin: auto;
 }
 .image-block {
     text-align: center;
